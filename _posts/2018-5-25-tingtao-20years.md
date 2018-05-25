@@ -3,6 +3,8 @@ layout: post
 title: 听涛20周年站庆 
 ---
 
+![tingtao-login](https://github.com/dupidog/dupidog.github.io/blob/master/images/tingtao-login.png?raw=true)
+
 备份一下 [https://bbs.tingtao.net/bbscon.php?bid=26&id=1076644832](https://bbs.tingtao.net/bbscon.php?bid=26&id=1076644832)
 
 -----------------------------------------
