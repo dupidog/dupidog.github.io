@@ -12,7 +12,7 @@ Shanghai, China
 
 ### Company
 
-[Montage Technology](http://www.montage-tech.com)
+[Hasco Vision](http://www.hascovision.com)
 
 ### Contact me
 
