@@ -14,11 +14,12 @@ title: Rescue a "dead" R6220 by nmrpflash
 
 ### 一、出现情况：
 
-1.  路由器上电后，只有电源灯和交换机(有线网口).灯亮，其余灯都灭。
+1.  路由器上电后，只有电源灯和交换机(有线网口)灯亮，其余灯都灭。
 
 2.  按路由器上的恢复按钮上电，出现2灯、3灯交替闪烁，但无法ping通192.168.1.1。
 
 3.  使用nmrpflash.exe这个软件刷机，一直提示
+
 ```
 No response after 60 seconds. Bailing out
 ```
@@ -31,11 +32,11 @@ No response after 60 seconds. Bailing out
 
 ### 三、解决办法：
 
-1. 将本地网卡IP修改为10.x.x.x，子网掩码为255.0.0.0。
+1. 将本地网卡IP修改为`10.x.x.x`，子网掩码为`255.0.0.0`。
 
-2. 下载nmrpflash.exe和适用于你当前windows版本的winpcap软件，先安装好winpcap。
+2. 下载`nmrpflash.exe`和适用于你当前windows版本的winpcap软件，先安装好winpcap。
 
-3. 用管理员权限cmd进入nmrpflash.exe所在文件夹。
+3. 用管理员权限`cmd`进入`nmrpflash.exe`所在文件夹。
 
 4. 确认与R6220连接的网卡，如果不确认，用`nmrpflash.exe -L`这条命令看一下是哪一个设备
 ```
