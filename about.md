@@ -12,7 +12,7 @@ Shanghai, China
 
 ### Company
 
-[Hasco Vision](http://www.hascovision.com)
+HYGON
 
 ### Contact me
 
