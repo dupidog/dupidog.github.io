@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MathJax test.
-categories: [Geek]
+categories: [Tool]
 tags: [web, math]
 math: true
 ---
