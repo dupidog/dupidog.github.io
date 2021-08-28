@@ -4,7 +4,7 @@ icon: fas fa-info
 order: 4
 ---
 
-<center>![avatar](/images/avatar.jpg)</center>
+![avatar](/images/avatar.jpg)
 
 ### About
 
