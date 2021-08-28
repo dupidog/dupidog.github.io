@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Rescue dead R6220 by nmrpflash
+categories: [Geek]
+tags: [network, hack]
 ---
 
 ## 网件R6220救砖

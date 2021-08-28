@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Suspend disks for QNAP nas
+categories: [Geek]
+tags: [nas]
 ---
 
 ## 威联通（QNAP）硬盘不休眠（待机）的解决方法

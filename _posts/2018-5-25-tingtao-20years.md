@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 20th celebration for tingtao.net
+categories: [Memory]
+tags: [tingtao]
 ---
 
 ## 听涛20周年站庆 

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: MathJax test.
+categories: [Geek]
+tags: [web, math]
+math: true
 ---
 
 When $$a \ne 0$$,

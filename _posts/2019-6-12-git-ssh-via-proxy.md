@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Use ssh protocol to connect git remote repository via proxy
+categories: [Geek]
+tags: [git, network]
 ---
 
 ## Git使用ssh跨越代理连接远程仓库

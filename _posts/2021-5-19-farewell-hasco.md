@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Farewell, X-2.1. Farewell, Hasco.
+categories: [Memory]
+tags: [hasco]
 ---
 
 凤凰台上凤凰游，凤去台空江自流。<br>

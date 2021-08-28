@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Telecomadmin hack for telecom fiber modem E8-C
+categories: [Geek]
+tags: [hack, network]
 ---
 
 ## 电信光猫破解telecomadmin密码

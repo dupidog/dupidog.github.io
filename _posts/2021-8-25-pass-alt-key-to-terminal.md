@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Pass ALT(meta) key to putty
+categories: [Geek]
+tags: [putty, vim]
 ---
 
 ## Putty 里正确设置 ALT(meta) 键

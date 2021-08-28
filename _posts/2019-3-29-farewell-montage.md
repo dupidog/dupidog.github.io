@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Farewell, Montage.
+categories: [Memory]
+tags: [montage]
 ---
 
 莫愁前路无知己，天下谁人不识君？
