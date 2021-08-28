@@ -40,11 +40,11 @@ social:
   email: dupidog@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/dupidog      # change to your twitter homepage
     - https://github.com/dupidog       # change to your github homepage
+    - https://twitter.com/dupidogwu      # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/dupidog
+    # - https://www.linkedin.com/in/dupidog
 
 google_site_verification: dupidog # change to your verification string
 
