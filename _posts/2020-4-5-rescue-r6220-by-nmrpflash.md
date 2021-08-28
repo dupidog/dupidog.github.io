@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rescue a "dead" R6220 by nmrpflash
+title: Rescue dead R6220 by nmrpflash
 ---
 
 ## 网件R6220救砖
