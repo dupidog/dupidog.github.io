@@ -3,7 +3,9 @@ layout: post
 title: Farewell, Montage.
 ---
 
-![farewellmontage](https://github.com/dupidog/dupidog.github.io/blob/master/images/farewell-montage.jpg?raw=true)
+莫愁前路无知己，天下谁人不识君？
 
-![farewellmontage2](https://github.com/dupidog/dupidog.github.io/blob/master/images/farewell-montage-2.jpg?raw=true)
+![farewellmontage](/images/farewell-montage.jpg)
+
+![farewellmontage2](/images/farewell-montage-2.jpg)
 

@@ -7,5 +7,5 @@ title: Summary of credit card policies from chinese banks
 
 备份自张大妈网站
 
-![creditcardpolicy](https://github.com/dupidog/dupidog.github.io/blob/master/images/credit-card-policy.jpg?raw=true)
+![creditcardpolicy](/images/credit-card-policy.jpg)
 
