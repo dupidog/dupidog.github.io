@@ -2,12 +2,6 @@
     gitalk
 -->
 
-<div id="gitalk" class="pt-2 pb-2">
-  <p class="text-center text-muted small pb-5">
-    Comments powered by <a href="https://github.com/gitalk/gitalk">Gitalk</a>.
-  </p>
-</div>
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
@@ -17,11 +11,12 @@
 const gitalk = new Gitalk({
   clientID: '68f972e711b20201eba3',
   clientSecret: '2a225c73ae34e0039cce2ded665d33206ade3a25',
-  repo: 'gitment4blog',
+  repo: 'gitalk4blog',
   owner: 'dupidog',
   admin: ['dupidog'],
   id: location.pathname,
-  distractionFreeMode: false
+  distractionFreeMode: false,
+  language: 'en'
 });
 gitalk.render('gitalk-container');
 </script>
