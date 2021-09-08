@@ -29,4 +29,32 @@ tags: [vpn]
 
 4. 重启计算机。
 
+以上操作等同于导入此注册表文件：
+[fix-l2tp-ipsec-in-win10.reg](/attachments/fix-l2tp-ipsec-in-win10.reg)
+
 这样就能使用 `L2TP` 类型的 `VPN` 了。
+
+---------------------------------------------
+
+### 错误现象
+
+使用 `Win10` 内置的 `VPN`  客户端连接 `L2TP` 类型的 `VPN` 时报如下错误：
+
+>L2TP连接尝试失败，因为安全层在初始化与远程计算机的协商时遇到了一个处理错误。
+
+### 解决方法
+
+此问题推测是 `Win10` 连接的服务器是用的弱加密，所以我们要允许客户端使用弱加密方式来连接。
+修改方法如下：
+
+1. `Win+R` 键打开运行框或在搜索框中输入 `regedit` 打开注册表编辑器；
+
+2. 注册表编辑器中找到 `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\Parameters` 将 `AllowL2TPweakcryphto` 的值改为 `1` (如没有则新增此键，类型为 `DWORD`）；
+
+3. 重启计算机。
+
+以上操作等同于导入此注册表文件：
+[fix-l2tp-weak-crypto-in-win10.reg](/attachments/fix-l2tp-weak-crypto-in-win10.reg)
+
+这样就能使用 `L2TP` 类型的 `VPN` 了。
+
