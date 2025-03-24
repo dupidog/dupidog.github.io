@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Proxy Setting for UWP apps
+title: Proxy setting for UWP apps
 categories: [Geek]
 tags: [windows]
 ---
