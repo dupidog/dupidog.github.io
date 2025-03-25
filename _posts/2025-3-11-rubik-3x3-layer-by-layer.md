@@ -7,6 +7,8 @@ tags: [rubik]
 
 ## 三阶魔方初级还原公式
 
+[下载整页图片](/images/rubik-3x3-dl.jpg)
+
 ![rubik-3x3-1](/images/rubik-3x3-1.png)
 
 ![rubik-3x3-2](/images/rubik-3x3-2.png)
