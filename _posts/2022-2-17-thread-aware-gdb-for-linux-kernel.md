@@ -13,31 +13,31 @@ tags: [linux, gdb]
 
 ### Gdb的thread-aware脚本
 
-Thread-aware需要gdb的python脚本支持，x86/arm架构在较早的gdb版本中已支持，riscv架构在Gdb 9.1开始支持。
+Thread-aware需要`gdb`的python脚本支持，x86/arm架构在较早的gdb版本中已支持，riscv架构在Gdb 9.1开始支持。
 
-要使用thread-ware，需要在linux源码的cfg中打开GDB_SCRIPTS，编译后得到的linux就可以执行以下命令加载osawareness脚本
+要使用thread-ware，需要在linux源码的cfg中打开`GDB_SCRIPTS`，编译后得到的linux就可以执行以下命令加载osawareness脚本
 
-![thread-aware-1](/images/thread-aware-1.png)
+![thread-aware-1](/images/thread-aware-1.png#pic_left)
 
 ### 使用thread-aware命令
 
-后续就可以使用lx命令来显示task相关内容
+后续就可以使用`lx_*`命令来显示task相关内容
 
-![thread-aware-2](/images/thread-aware-2.png)
+![thread-aware-2](/images/thread-aware-2.png#pic_left)
 
 例如：
 
-![thread-aware-3](/images/thread-aware-3.png)
+![thread-aware-3](/images/thread-aware-3.png#pic_left)
 
-![thread-aware-4](/images/thread-aware-4.png)
+![thread-aware-4](/images/thread-aware-4.png#pic_left)
 
-![thread-aware-5](/images/thread-aware-5.png)
+![thread-aware-5](/images/thread-aware-5.png#pic_left)
 
 有些命令和函数在riscv下没有实现,
 
-如 lx_current
+如`lx_current`
 
-![thread-aware-6](/images/thread-aware-6.png)
+![thread-aware-6](/images/thread-aware-6.png#pic_left)
 
 -----------------------------------------------
 
