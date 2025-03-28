@@ -13,7 +13,7 @@ tags: [riscv,gcc]
 
 ### start.S
 
-```armasm
+```
 # zero-out bss
   la t0, _bss_start
   la t1, _bss_end
@@ -25,7 +25,7 @@ _bss_zero:
 
 ### link.ldS
 
-```armasm
+```
 # bss segment
   _bss_start = .;
   .sbss : {
@@ -40,7 +40,7 @@ _bss_zero:
 
 ## 踩坑
 
-```armasm
+```
   la t0, _bss_start  # 0x12c, 0x130 使用pc相对位置得到_bss_start
   la t1, _bss_end # 0x134 使用gp相对位置得到_bss_end
 ```
@@ -53,7 +53,7 @@ _bss_zero:
 
 把`BSS`初始化放到`gp`初始化后面就一切正常，具体原因还要仔细再追。
 
-```armasm
+```
 # zero-out bss
   la t0, _bss_start
   la t1, _bss_end
