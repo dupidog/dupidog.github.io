@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solution to mermaid won't render in jekyll
+title: Solution to mermaid not render in jekyll
 categories: [Geek]
 tags: [mermaid,jekyll]
 ---

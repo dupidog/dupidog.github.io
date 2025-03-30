@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gcc issue in handling gp register in RISC-V
+title: GCC issue in handling GP register in RISC-V
 categories: [Geek]
 tags: [riscv,gcc]
 ---

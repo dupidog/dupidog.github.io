@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dupidog's Smart Home Network Topology
+title: Dupidog's smart home network topology
 categories: [Geek]
 tags: [smarthome]
 mermaid: true
