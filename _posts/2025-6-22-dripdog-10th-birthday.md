@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Dripdog's 1st birthday
+title: Dripdog's 10th birthday
 categories: [Memory]
 tags: [dripdog]
 ---
 
-# 吴皓杨一周岁生日纪念
+# 吴皓杨十周岁生日纪念
 
 <style>
 .aspect-ratio {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 100%;
+  padding-bottom: 56%;
 }
 
 .aspect-ratio iframe {
@@ -25,5 +25,5 @@ tags: [dripdog]
 </style>
 
 <div class="aspect-ratio">
-<iframe src="https://demo.dupidog.cn/why1year/dubao_one_year.mp4" frameborder="0" allowfullscreen> </iframe>
+<iframe src="https://demo.dupidog.cn/why10year/dubao_10_year.mp4" frameborder="0" allowfullscreen> </iframe>
 </div>
