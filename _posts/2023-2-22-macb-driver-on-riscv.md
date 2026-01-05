@@ -13,6 +13,8 @@ tags: [linux, dma]
 	
 _PAGE_MTMASK/_PAGE_IO /_PAGE_NOCACHE没有正确传递宏定义的svpbmt page table flag，均为0，需要暂时作如下修改
 
+![](/images/macb-driver-on-riscv-1.png)
+
 #### 1.2 cache_op
 	
 由于dma engine需要实现cache_op对流式dma内存进行cache_op操作。这边dma相关mapping接口给出的是物理地址，而实际进行cache_op操作的CMO指令需要虚拟地址，但riscv架构没有定义phys_to_virt函数。这边需要使用__va(pa)来进行转换
